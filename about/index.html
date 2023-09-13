@@ -112,6 +112,9 @@
 
 
 
+
+<script defer src="/lib/tw-elements/index.min.js" integrity=""></script>
+
   
   
 
@@ -149,9 +152,9 @@
             
             
             
-  <a href="/blogs/"  class="flex items-center">
+  <a href=""  class="flex items-center">
     
-    <p class="text-base font-medium text-gray-500 hover:text-gray-900" title="Blogs">
+    <p class="text-base font-medium text-gray-500 hover:text-gray-900" title="">
         Blogs
     </p>
 </a>
@@ -159,9 +162,9 @@
 
             
             
-  <a href="/docs/"  class="flex items-center">
+  <a href=""  class="flex items-center">
     
-    <p class="text-base font-medium text-gray-500 hover:text-gray-900" title="Documents">
+    <p class="text-base font-medium text-gray-500 hover:text-gray-900" title="">
         Documents
     </p>
 </a>
@@ -313,9 +316,9 @@
 
                     
   <li class="mt-1">
-    <a href="/blogs/"  class="flex items-center">
+    <a href=""  class="flex items-center">
         
-        <p class="text-bg font-bg text-gray-500 hover:text-gray-900" title="Blogs">
+        <p class="text-bg font-bg text-gray-500 hover:text-gray-900" title="">
             Blogs
         </p>
     </a>
@@ -327,9 +330,9 @@
 
                     
   <li class="mt-1">
-    <a href="/docs/"  class="flex items-center">
+    <a href=""  class="flex items-center">
         
-        <p class="text-bg font-bg text-gray-500 hover:text-gray-900" title="Documents">
+        <p class="text-bg font-bg text-gray-500 hover:text-gray-900" title="">
             Documents
         </p>
     </a>
@@ -396,6 +399,33 @@
 
 
 
+
+
+<div id="hero" class="h-[150px] md:h-[200px]"></div>
+
+
+    
+    <div class="fixed inset-x-0 top-0 h-[800px] single_hero_background nozoom"
+    style="background-image:url(/img/open-road_hub1aa3d961194c4329587555008c84184_4042396_1200x0_resize_q75_box.jpg);">
+    
+
+
+    <div class="absolute inset-0 bg-gradient-to-t from-neutral dark:from-neutral-800 to-transparent mix-blend-normal">
+    </div>
+    <div
+        class="absolute inset-0 opacity-60 bg-gradient-to-t from-neutral dark:from-neutral-800 to-neutral-100 dark:to-neutral-800 mix-blend-normal">
+    </div>
+</div>
+
+<div id="background-blur" class="fixed opacity-0 inset-x-0 top-0 h-full single_hero_background nozoom backdrop-blur-2xl"></div>
+<script>
+    window.addEventListener('scroll', function (e) {
+        var scroll = window.pageYOffset || document.documentElement.scrollTop || document.body.scrollTop || 0;
+        var background_blur = document.getElementById('background-blur');
+        background_blur.style.opacity = (scroll / 300)
+    });
+</script>
+
  <header>
   
   <h1 class="mt-5 text-4xl font-extrabold text-neutral-900 dark:text-neutral">About Me</h1>
@@ -444,7 +474,365 @@
   About Me
 </div>
 
-<hr>
+<div id="skills-" class="anchor"></div>
+<h4 class="relative group"><strong>Skills :</strong> 
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+            style="text-decoration-line: none !important;" href="#skills-" aria-label="Anchor">#</a></span>        
+    
+</h4>
+<p><span class="flex">
+  <span
+    class="rounded-md border border-primary-400 px-1 py-[1px] text-xs font-normal text-primary-700 dark:border-primary-600 dark:text-primary-400"
+  >
+    C/C++
+  </span>
+</span>
+
+
+<span class="flex">
+  <span
+    class="rounded-md border border-primary-400 px-1 py-[1px] text-xs font-normal text-primary-700 dark:border-primary-600 dark:text-primary-400"
+  >
+    Java
+  </span>
+</span>
+
+
+<span class="flex">
+  <span
+    class="rounded-md border border-primary-400 px-1 py-[1px] text-xs font-normal text-primary-700 dark:border-primary-600 dark:text-primary-400"
+  >
+    embedded linux
+  </span>
+</span>
+
+
+<span class="flex">
+  <span
+    class="rounded-md border border-primary-400 px-1 py-[1px] text-xs font-normal text-primary-700 dark:border-primary-600 dark:text-primary-400"
+  >
+    RTOS
+  </span>
+</span>
+
+</p>
+<p>High level languages: <code>python, go, node, lua.</code> <br>
+Web development: <code>vue, django, javascript.</code> <br>
+Other languages: <code>SQL, YAML</code> <br>
+Frameworks: <code>Docker</code> <br></p>
+<div id="experiences" class="anchor"></div>
+<h2 class="relative group">Experiences 
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+            style="text-decoration-line: none !important;" href="#experiences" aria-label="Anchor">#</a></span>        
+    
+</h2>
+<ol class="border-l-2 list-none border-primary-500 dark:border-primary-300">
+
+
+
+
+
+
+<li class="list-none">
+  <div class="flex flex-start">
+    <div class="bg-primary-500 dark:bg-primary-300 text-neutral-50 dark:text-neutral-700 min-w-[30px] h-8 text-2xl flex items-center justify-center rounded-full -ml-12 mt-5">
+      
+
+  <span class="relative block icon">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path fill="currentColor" d="M438.6 105.4C451.1 117.9 451.1 138.1 438.6 150.6L182.6 406.6C170.1 419.1 149.9 419.1 137.4 406.6L9.372 278.6C-3.124 266.1-3.124 245.9 9.372 233.4C21.87 220.9 42.13 220.9 54.63 233.4L159.1 338.7L393.4 105.4C405.9 92.88 426.1 92.88 438.6 105.4H438.6z"/></svg>
+
+  </span>
+
+
+    </div>
+    <div class="block p-6 rounded-lg shadow-2xl min-w-full ml-6 mb-10 backdrop-blur">
+      <div class="flex justify-between">
+        
+        <h2 class="mt-0">
+          ITRI 
+        </h2>
+        
+        
+      </div>
+      
+      <h4 class="mt-0">
+        Deputy Project Manager
+      </h4>
+      
+      <p class="text-gray-700 mb-6">
+<font size="3" color="#999e90"> <em>Now </em> </font> <br>
+<b>
+AI Team leader and AI Project Leader.
+</b>
+</p>
+    </div>
+  </div>
+</li>
+
+
+
+
+
+
+<li class="list-none">
+  <div class="flex flex-start">
+    <div class="bg-primary-500 dark:bg-primary-300 text-neutral-50 dark:text-neutral-700 min-w-[30px] h-8 text-2xl flex items-center justify-center rounded-full -ml-12 mt-5">
+      
+
+  <span class="relative block icon">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path fill="currentColor" d="M438.6 105.4C451.1 117.9 451.1 138.1 438.6 150.6L182.6 406.6C170.1 419.1 149.9 419.1 137.4 406.6L9.372 278.6C-3.124 266.1-3.124 245.9 9.372 233.4C21.87 220.9 42.13 220.9 54.63 233.4L159.1 338.7L393.4 105.4C405.9 92.88 426.1 92.88 438.6 105.4H438.6z"/></svg>
+
+  </span>
+
+
+    </div>
+    <div class="block p-6 rounded-lg shadow-2xl min-w-full ml-6 mb-10 backdrop-blur">
+      <div class="flex justify-between">
+        
+        <h2 class="mt-0">
+          XSquare 
+        </h2>
+        
+        
+      </div>
+      
+      <h4 class="mt-0">
+        DevOps and AI team leader
+      </h4>
+      
+      <p class="text-gray-700 mb-6">
+<font size="3" color="#999e90" ><em> 2 years </em> </font> <br>
+<b>
+1. 5G AIoT new technologies, ecosystem (AI, IOT, and Security), and open development framework build-up <br>
+2. IT Infrastructure build up/maintain/re-design <br>
+3. CI/CD and DevOps flow build up </b>
+</p>
+    </div>
+  </div>
+</li>
+
+
+
+
+
+
+<li class="list-none">
+  <div class="flex flex-start">
+    <div class="bg-primary-500 dark:bg-primary-300 text-neutral-50 dark:text-neutral-700 min-w-[30px] h-8 text-2xl flex items-center justify-center rounded-full -ml-12 mt-5">
+      
+
+  <span class="relative block icon">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path fill="currentColor" d="M438.6 105.4C451.1 117.9 451.1 138.1 438.6 150.6L182.6 406.6C170.1 419.1 149.9 419.1 137.4 406.6L9.372 278.6C-3.124 266.1-3.124 245.9 9.372 233.4C21.87 220.9 42.13 220.9 54.63 233.4L159.1 338.7L393.4 105.4C405.9 92.88 426.1 92.88 438.6 105.4H438.6z"/></svg>
+
+  </span>
+
+
+    </div>
+    <div class="block p-6 rounded-lg shadow-2xl min-w-full ml-6 mb-10 backdrop-blur">
+      <div class="flex justify-between">
+        
+        <h2 class="mt-0">
+          WNC 
+        </h2>
+        
+        
+      </div>
+      
+      <h4 class="mt-0">
+        Principal Software Engineer (Embedded Engineer)
+      </h4>
+      
+      <p class="text-gray-700 mb-6">
+<font size="3" color="#999e90" ><em> 9 years </em> </font> <br>
+<b>
+<em> Project Development: </em> <br>
+- New technical study and demo sample development (Smart Meter and Roadside UNIT) <br>
+- WiFi mmWave 60G AP docker development (Embedded Linux) <br>
+- BLE indoor location tracking system development (RTOS and Embedded Linux) <br>
+- Automotive CPU/WiFi-BT modules Software Testing System Design/Development. <br>
+<em> Networking Product Development: </em> <br>
+- Protocols development of Router relative product (UPnP, HTTP and others derived from HTTP) <br>
+- Porting GPL open sources application on linux embedded system. <br>
+- Create ourselves middleware architecture on linux relative system. (System configuration, IPC, Makefile chain) <br>
+<em> Security and DevOps: </em> <br>
+- Develop CVEs scan tool using python and SQL and design CVEs static analyzer on CI/CD flow <br>
+- Software Development Processes Expert (Using JIRA to implement A-SPICE and Agile SW DEVOPS) <br>
+</b>
+</p>
+    </div>
+  </div>
+</li>
+
+
+
+
+
+
+<li class="list-none">
+  <div class="flex flex-start">
+    <div class="bg-primary-500 dark:bg-primary-300 text-neutral-50 dark:text-neutral-700 min-w-[30px] h-8 text-2xl flex items-center justify-center rounded-full -ml-12 mt-5">
+      
+
+  <span class="relative block icon">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path fill="currentColor" d="M438.6 105.4C451.1 117.9 451.1 138.1 438.6 150.6L182.6 406.6C170.1 419.1 149.9 419.1 137.4 406.6L9.372 278.6C-3.124 266.1-3.124 245.9 9.372 233.4C21.87 220.9 42.13 220.9 54.63 233.4L159.1 338.7L393.4 105.4C405.9 92.88 426.1 92.88 438.6 105.4H438.6z"/></svg>
+
+  </span>
+
+
+    </div>
+    <div class="block p-6 rounded-lg shadow-2xl min-w-full ml-6 mb-10 backdrop-blur">
+      <div class="flex justify-between">
+        
+        <h2 class="mt-0">
+          AUO 
+        </h2>
+        
+        
+      </div>
+      
+      <h4 class="mt-0">
+        Senior Software Engineer
+      </h4>
+      
+      <p class="text-gray-700 mb-6">
+<font size="3" color="#999e90" ><em> 1 year </em> </font> <br>
+<b>
+TV OSD development.</b>
+</p>
+    </div>
+  </div>
+</li>
+
+
+
+
+
+
+<li class="list-none">
+  <div class="flex flex-start">
+    <div class="bg-primary-500 dark:bg-primary-300 text-neutral-50 dark:text-neutral-700 min-w-[30px] h-8 text-2xl flex items-center justify-center rounded-full -ml-12 mt-5">
+      
+
+  <span class="relative block icon">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path fill="currentColor" d="M438.6 105.4C451.1 117.9 451.1 138.1 438.6 150.6L182.6 406.6C170.1 419.1 149.9 419.1 137.4 406.6L9.372 278.6C-3.124 266.1-3.124 245.9 9.372 233.4C21.87 220.9 42.13 220.9 54.63 233.4L159.1 338.7L393.4 105.4C405.9 92.88 426.1 92.88 438.6 105.4H438.6z"/></svg>
+
+  </span>
+
+
+    </div>
+    <div class="block p-6 rounded-lg shadow-2xl min-w-full ml-6 mb-10 backdrop-blur">
+      <div class="flex justify-between">
+        
+        <h2 class="mt-0">
+          MYCOM 
+        </h2>
+        
+        
+      </div>
+      
+      <h4 class="mt-0">
+        Senior Jave Developer
+      </h4>
+      
+      <p class="text-gray-700 mb-6">
+<font size="3" color="#999e90" ><em> 1.5 years </em> </font> <br>
+<b>
+ Java parser programming on various data type (ASCII, XML, ASN1, Binary).</b>
+</p>
+    </div>
+  </div>
+</li>
+
+</ol>
+<div id="education" class="anchor"></div>
+<h2 class="relative group">Education 
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+            style="text-decoration-line: none !important;" href="#education" aria-label="Anchor">#</a></span>        
+    
+</h2>
+<ol class="border-l-2 list-none border-primary-500 dark:border-primary-300">
+
+
+
+
+
+
+<li class="list-none">
+  <div class="flex flex-start">
+    <div class="bg-primary-500 dark:bg-primary-300 text-neutral-50 dark:text-neutral-700 min-w-[30px] h-8 text-2xl flex items-center justify-center rounded-full -ml-12 mt-5">
+      
+
+  <span class="relative block icon">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 512">
+<path fill="currentColor" d="M320 32c-8.1 0-16.1 1.4-23.7 4.1L15.8 137.4C6.3 140.9 0 149.9 0 160s6.3 19.1 15.8 22.6l57.9 20.9C57.3 229.3 48 259.8 48 291.9v28.1c0 28.4-10.8 57.7-22.3 80.8c-6.5 13-13.9 25.8-22.5 37.6C0 442.7-.9 448.3 .9 453.4s6 8.9 11.2 10.2l64 16c4.2 1.1 8.7 .3 12.4-2s6.3-6.1 7.1-10.4c8.6-42.8 4.3-81.2-2.1-108.7C90.3 344.3 86 329.8 80 316.5V291.9c0-30.2 10.2-58.7 27.9-81.5c12.9-15.5 29.6-28 49.2-35.7l157-61.7c8.2-3.2 17.5 .8 20.7 9s-.8 17.5-9 20.7l-157 61.7c-12.4 4.9-23.3 12.4-32.2 21.6l159.6 57.6c7.6 2.7 15.6 4.1 23.7 4.1s16.1-1.4 23.7-4.1L624.2 182.6c9.5-3.4 15.8-12.5 15.8-22.6s-6.3-19.1-15.8-22.6L343.7 36.1C336.1 33.4 328.1 32 320 32zM128 408c0 35.3 86 72 192 72s192-36.7 192-72L496.7 262.6 354.5 314c-11.1 4-22.8 6-34.5 6s-23.5-2-34.5-6L143.3 262.6 128 408z"/></svg>
+  </span>
+
+
+    </div>
+    <div class="block p-6 rounded-lg shadow-2xl min-w-full ml-6 mb-10 backdrop-blur">
+      <div class="flex justify-between">
+        
+        <h2 class="mt-0">
+          NYU Tandon School of Engineering 
+        </h2>
+        
+        
+      </div>
+      
+      <h4 class="mt-0">
+        Master Degree of Telecommunications Engineering
+      </h4>
+      
+      <p class="text-gray-700 mb-6">
+</p>
+    </div>
+  </div>
+</li>
+
+
+
+
+
+
+<li class="list-none">
+  <div class="flex flex-start">
+    <div class="bg-primary-500 dark:bg-primary-300 text-neutral-50 dark:text-neutral-700 min-w-[30px] h-8 text-2xl flex items-center justify-center rounded-full -ml-12 mt-5">
+      
+
+  <span class="relative block icon">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 512">
+<path fill="currentColor" d="M320 32c-8.1 0-16.1 1.4-23.7 4.1L15.8 137.4C6.3 140.9 0 149.9 0 160s6.3 19.1 15.8 22.6l57.9 20.9C57.3 229.3 48 259.8 48 291.9v28.1c0 28.4-10.8 57.7-22.3 80.8c-6.5 13-13.9 25.8-22.5 37.6C0 442.7-.9 448.3 .9 453.4s6 8.9 11.2 10.2l64 16c4.2 1.1 8.7 .3 12.4-2s6.3-6.1 7.1-10.4c8.6-42.8 4.3-81.2-2.1-108.7C90.3 344.3 86 329.8 80 316.5V291.9c0-30.2 10.2-58.7 27.9-81.5c12.9-15.5 29.6-28 49.2-35.7l157-61.7c8.2-3.2 17.5 .8 20.7 9s-.8 17.5-9 20.7l-157 61.7c-12.4 4.9-23.3 12.4-32.2 21.6l159.6 57.6c7.6 2.7 15.6 4.1 23.7 4.1s16.1-1.4 23.7-4.1L624.2 182.6c9.5-3.4 15.8-12.5 15.8-22.6s-6.3-19.1-15.8-22.6L343.7 36.1C336.1 33.4 328.1 32 320 32zM128 408c0 35.3 86 72 192 72s192-36.7 192-72L496.7 262.6 354.5 314c-11.1 4-22.8 6-34.5 6s-23.5-2-34.5-6L143.3 262.6 128 408z"/></svg>
+  </span>
+
+
+    </div>
+    <div class="block p-6 rounded-lg shadow-2xl min-w-full ml-6 mb-10 backdrop-blur">
+      <div class="flex justify-between">
+        
+        <h2 class="mt-0">
+          San Francisco State University 
+        </h2>
+        
+        
+      </div>
+      
+      <h4 class="mt-0">
+        Master Degree of Computer Science
+      </h4>
+      
+      <p class="text-gray-700 mb-6">
+</p>
+    </div>
+  </div>
+</li>
+
+</ol>
 
     </div>
    
