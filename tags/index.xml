@@ -7,6 +7,36 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     
-    <atom:link href="https://anitawuITRI.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 08 Sep 2023 14:40:24 +0800</lastBuildDate><atom:link href="https://anitawuITRI.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>dummy</title>
+      <link>https://anitawuITRI.github.io/tags/dummy/</link>
+      <pubDate>Fri, 08 Sep 2023 14:40:24 +0800</pubDate>
+      
+      <guid>https://anitawuITRI.github.io/tags/dummy/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>python</title>
+      <link>https://anitawuITRI.github.io/tags/python/</link>
+      <pubDate>Fri, 08 Sep 2023 14:40:24 +0800</pubDate>
+      
+      <guid>https://anitawuITRI.github.io/tags/python/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>training</title>
+      <link>https://anitawuITRI.github.io/tags/training/</link>
+      <pubDate>Fri, 08 Sep 2023 14:40:24 +0800</pubDate>
+      
+      <guid>https://anitawuITRI.github.io/tags/training/</guid>
+      <description></description>
+      
+    </item>
+    
   </channel>
 </rss>
