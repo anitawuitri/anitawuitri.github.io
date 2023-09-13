@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Python Dummy 10 Days on AnitaWu</title>
+    <link>https://anitawuITRI.github.io/series/python-dummy-10-days/</link>
+    <description>Recent content in Python Dummy 10 Days on AnitaWu</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    
+    <lastBuildDate>Fri, 08 Sep 2023 14:40:24 +0800</lastBuildDate><atom:link href="https://anitawuITRI.github.io/series/python-dummy-10-days/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Python Dummy Day 1 : 開發環境</title>
+      <link>https://anitawuITRI.github.io/docs/python/day1/</link>
+      <pubDate>Fri, 08 Sep 2023 14:40:24 +0800</pubDate>
+      
+      <guid>https://anitawuITRI.github.io/docs/python/day1/</guid>
+      <description>如何使用 WSL 在 Windows 上安裝 Linux 如何使用 WSL 在 Windows 上安裝 Linux # 安裝 WSL # Windows 搜尋 Powershell # 開啟powershell 安裝WSL # wsl --install 檢查安裝版本 # wsl -l -v Result:</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://anitawuITRI.github.io/docs/python/day1/featured.jpg" />
+    </item>
+    
+  </channel>
+</rss>
